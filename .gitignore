@@ -14,3 +14,7 @@ submission.zip
 *.pth
 *.ckpt
 *.bin
+
+
+# PDF files generated for the assignment
+*.pdf

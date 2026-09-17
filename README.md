@@ -5,7 +5,7 @@
 Implement and train a decoder-only Transformer language model from scratch
 using low-level PyTorch tensor operations. The fixed model uses bias-free
 projections, pre-RMSNorm, adjacent-pair RoPE, SwiGLU, and grouped-query
-attention.
+attention. 
 
 Read `PA1.pdf` before beginning. It is the authoritative implementation,
 testing, training, reporting, and submission contract.
