@@ -30,7 +30,8 @@ def run_load_token_array(path: str | Path) -> np.memmap:
     Returns:
         A one-dimensional, read-only memory map of little-endian uint16 IDs.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.data import load_token_array
+    return load_token_array(path)
 
 
 def run_get_batch(
@@ -50,7 +51,9 @@ def run_get_batch(
     ``[batch_size, sequence_length]``. The adapter should only forward arguments
     to the student's batching function.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.data import get_batch
+    x, y = get_batch(dataset, batch_size, sequence_length, device, generator)
+    return (x.to(dtype=torch.long, device=device), y.to(dtype=torch.long, device=device))
 
 
 def run_linear(
