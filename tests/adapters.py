@@ -72,7 +72,11 @@ def run_linear(
     Returns:
         The module output with shape ``[..., d_out]``.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.layers import Linear
+    linear = Linear(d_in, d_out, device=weights.device, dtype=weights.dtype)
+    with torch.no_grad():
+        linear.weight.copy_(weights)
+    return linear(in_features)
 
 
 def run_embedding(
@@ -90,7 +94,11 @@ def run_embedding(
     Returns:
         Embedded token vectors with shape ``[*token_ids.shape, d_model]``.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.layers import Embedding
+    embedding = Embedding(vocab_size, d_model, device=weights.device, dtype=weights.dtype)
+    with torch.no_grad():
+        embedding.weight.copy_(weights)
+    return embedding(token_ids)
 
 
 def run_rmsnorm(
@@ -108,7 +116,11 @@ def run_rmsnorm(
     Returns:
         A tensor with the same shape and floating dtype as ``in_features``.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.layers import RMSNorm
+    rmsnorm = RMSNorm(d_model, norm_eps=norm_eps, device=weights.device, dtype=weights.dtype)
+    with torch.no_grad():
+        rmsnorm.weight.copy_(weights)
+    return rmsnorm(in_features)
 
 
 def run_silu(in_features: Float[Tensor, "..."]) -> Float[Tensor, "..."]:
@@ -117,7 +129,9 @@ def run_silu(in_features: Float[Tensor, "..."]) -> Float[Tensor, "..."]:
     The adapter must call the student function rather than write the sigmoid
     formula itself. Return a tensor with the same shape as ``in_features``.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.layers import SiLU
+    silu = SiLU()
+    return silu(in_features)
 
 
 def run_swiglu(
@@ -138,7 +152,13 @@ def run_swiglu(
     Returns:
         A tensor with shape ``[..., d_model]``.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.layers import Swiglu
+    swiglu = Swiglu(d_model, d_ff, device=gate_weight.device, dtype=gate_weight.dtype)
+    with torch.no_grad():
+        swiglu.w_gate.weight.copy_(gate_weight)
+        swiglu.w_up.weight.copy_(up_weight)
+        swiglu.w_down.weight.copy_(down_weight)
+    return swiglu(in_features)
 
 
 def run_rope(
