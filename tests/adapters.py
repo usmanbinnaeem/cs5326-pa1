@@ -179,7 +179,10 @@ def run_rope(
     Returns:
         The rotated tensor with unchanged shape and floating dtype.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+
+    from src.rope import RotaryPositionalEmbedding
+    rope = RotaryPositionalEmbedding(rope_theta, head_dim, context_length, device=in_query_or_key.device)
+    return rope(in_query_or_key, token_positions)
 
 
 def run_softmax(
