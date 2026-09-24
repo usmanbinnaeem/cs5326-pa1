@@ -193,7 +193,8 @@ def run_softmax(
     ``dim`` may be positive or negative. The adapter simply forwards the tensor
     and dimension and returns an output of the same shape.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.attention import softmax
+    return softmax(in_features, dim=dim)
 
 
 def run_scaled_dot_product_attention(
@@ -213,7 +214,8 @@ def run_scaled_dot_product_attention(
     Returns:
         Attention values with shape ``[..., queries, d_v]``.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.attention import scaled_dot_product_attention
+    return scaled_dot_product_attention(queries, keys, values, mask=mask)
 
 
 def run_grouped_query_self_attention(
