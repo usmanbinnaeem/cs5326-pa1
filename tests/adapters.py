@@ -52,8 +52,7 @@ def run_get_batch(
     to the student's batching function.
     """
     from src.data import get_batch
-    x, y = get_batch(dataset, batch_size, sequence_length, device, generator)
-    return (x.to(dtype=torch.long, device=device), y.to(dtype=torch.long, device=device))
+    return get_batch(dataset, batch_size, sequence_length, device, generator)
 
 
 def run_linear(
@@ -155,9 +154,9 @@ def run_swiglu(
     from src.layers import Swiglu
     swiglu = Swiglu(d_model, d_ff, device=gate_weight.device, dtype=gate_weight.dtype)
     with torch.no_grad():
-        swiglu.w_gate.weight.copy_(gate_weight)
-        swiglu.w_up.weight.copy_(up_weight)
-        swiglu.w_down.weight.copy_(down_weight)
+        swiglu.gate.weight.copy_(gate_weight)
+        swiglu.up.weight.copy_(up_weight)
+        swiglu.down.weight.copy_(down_weight)
     return swiglu(in_features)
 
 
@@ -245,7 +244,22 @@ def run_grouped_query_self_attention(
     Returns:
         Attention output with shape ``[batch, sequence, d_model]``.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.attention import CausalGroupedQueryAttention
+    attention = CausalGroupedQueryAttention(
+        d_model,
+        n_q_heads,
+        n_kv_heads,
+        context_length,
+        rope_theta,
+        device=in_features.device,
+        dtype=q_proj_weight.dtype,
+    )
+    with torch.no_grad():
+        attention.q_proj.weight.copy_(q_proj_weight)
+        attention.k_proj.weight.copy_(k_proj_weight)
+        attention.v_proj.weight.copy_(v_proj_weight)
+        attention.out_proj.weight.copy_(output_proj_weight)
+    return attention(in_features, token_positions=token_positions)
 
 
 def run_transformer_block(
@@ -272,7 +286,21 @@ def run_transformer_block(
     Returns:
         Block output with shape ``[batch, sequence, d_model]``.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.model import TransformerBlock
+    first = next(iter(weights.values()))
+    block = TransformerBlock(
+        d_model,
+        n_q_heads,
+        n_kv_heads,
+        d_ff,
+        context_length,
+        rope_theta,
+        norm_eps=norm_eps,
+        device=in_features.device,
+        dtype=first.dtype,
+    )
+    block.load_state_dict(weights)
+    return block(in_features, token_positions=token_positions)
 
 
 def run_transformer_lm(
@@ -300,7 +328,23 @@ def run_transformer_lm(
     Returns:
         Unnormalized logits with shape ``[batch, sequence, vocab_size]``.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.model import TransformerLM
+    first = next(iter(weights.values()))
+    model = TransformerLM(
+        vocab_size,
+        context_length,
+        d_model,
+        num_layers,
+        n_q_heads,
+        n_kv_heads,
+        d_ff,
+        rope_theta,
+        norm_eps=norm_eps,
+        device=token_ids.device,
+        dtype=first.dtype,
+    )
+    model.load_state_dict(weights)
+    return model(token_ids, token_positions=token_positions)
 
 
 def get_transformer_lm(
@@ -324,7 +368,20 @@ def get_transformer_lm(
     real ``torch.nn.Module`` so tests can inspect parameters and gradients; do
     not wrap or reimplement its forward computation in the adapter.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.model import TransformerLM
+    return TransformerLM(
+        vocab_size,
+        context_length,
+        d_model,
+        num_layers,
+        n_q_heads,
+        n_kv_heads,
+        d_ff,
+        rope_theta,
+        norm_eps=norm_eps,
+        device=device,
+        dtype=dtype,
+    )
 
 
 def run_cross_entropy(
@@ -336,7 +393,8 @@ def run_cross_entropy(
     IDs for the final vocabulary axis. The adapter calls the student's loss
     function; it must not delegate to PyTorch cross-entropy here.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.optim import cross_entropy
+    return cross_entropy(logits, targets)
 
 
 def get_adamw_cls() -> type[torch.optim.Optimizer]:
@@ -346,7 +404,8 @@ def get_adamw_cls() -> type[torch.optim.Optimizer]:
     expose serializable optimizer state, and implement the assignment equations
     without wrapping ``torch.optim.AdamW``.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.optim import AdamW
+    return AdamW
 
 
 def run_get_lr_cosine_schedule(
@@ -362,7 +421,10 @@ def run_get_lr_cosine_schedule(
     zero to ``learning_rate_max``, decays to ``learning_rate_min`` by
     ``cosine_steps``, then remains at that floor. Return a Python float.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.optim import get_lr_cosine_schedule
+    return get_lr_cosine_schedule(
+        step, learning_rate_max, learning_rate_min, warmup_steps, cosine_steps
+    )
 
 
 def run_gradient_clipping(
@@ -376,7 +438,8 @@ def run_gradient_clipping(
     Returns:
         The global L2 norm before clipping as a Python float.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.optim import gradient_clipping
+    return gradient_clipping(parameters, max_l2_norm)
 
 
 def run_save_checkpoint(
@@ -392,7 +455,8 @@ def run_save_checkpoint(
     ``out`` may be a path or a writable binary stream. The adapter should only
     call the student's checkpoint function; it must not assemble the payload.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.checkpoint import save_checkpoint
+    save_checkpoint(model, optimizer, next_step, train_generator, val_generator, out)
 
 
 def run_load_checkpoint(
@@ -407,4 +471,5 @@ def run_load_checkpoint(
     ``src`` may be a path or a readable binary stream. The adapter should only
     call the student's loader; state restoration belongs in that function.
     """
-    raise NotImplementedError("TODO: connect your implementation")
+    from src.checkpoint import load_checkpoint
+    return load_checkpoint(src, model, optimizer, train_generator, val_generator)

@@ -53,12 +53,10 @@ class SiLU(torch.nn.Module):
 class Swiglu(torch.nn.Module):
     def __init__(self, d_model: int, d_ff: int, device=None, dtype=None):
         super().__init__()
-        self.w_gate = Linear(d_model, d_ff, device=device, dtype=dtype)
-        self.w_up = Linear(d_model, d_ff, device=device, dtype=dtype)
-        self.w_down = Linear(d_ff, d_model, device=device, dtype=dtype)
+        self.gate = Linear(d_model, d_ff, device=device, dtype=dtype)
+        self.up = Linear(d_model, d_ff, device=device, dtype=dtype)
+        self.down = Linear(d_ff, d_model, device=device, dtype=dtype)
         self.silu = SiLU()
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
-        gate = self.silu(self.w_gate(x))
-        up = self.w_up(x)
-        return self.w_down(gate * up)
+        return self.down(self.silu(self.gate(x)) * self.up(x))
