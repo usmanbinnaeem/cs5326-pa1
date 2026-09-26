@@ -16,6 +16,9 @@ from src.model import TransformerLM
 from src.optim import AdamW, cross_entropy, get_lr_cosine_schedule, gradient_clipping
 
 
+MAX_FP16_RETRIES = 20
+
+
 def add_model_arguments(parser):
     group = parser.add_argument_group("model")
     group.add_argument("--vocab-size", type=int, default=8192)
@@ -215,7 +218,7 @@ def main(argv=None):
             group["lr"] = lr
 
         # fp16 loss scaling skips updates with overflowing gradients; retry so every step is one real update
-        while True:
+        for attempt in range(MAX_FP16_RETRIES + 1):
             optimizer.zero_grad(set_to_none=True)
             loss_sum = torch.zeros((), device=device)
             for _ in range(args.gradient_accumulation_steps):
@@ -230,6 +233,11 @@ def main(argv=None):
                 (scaler.scale(scaled_loss) if scaler else scaled_loss).backward()
                 loss_sum += microbatch_loss.detach()
             train_loss = float(loss_sum) / args.gradient_accumulation_steps
+            if not math.isfinite(train_loss):
+                raise RuntimeError(
+                    f"non-finite training loss {train_loss} at step {step + 1}"
+                    + ("; this is a known fp16 + --compile issue on some GPUs, rerun without --compile" if args.compile else "")
+                )
 
             if scaler is None:
                 grad_norm = gradient_clipping(model.parameters(), args.max_grad_norm)
@@ -243,6 +251,11 @@ def main(argv=None):
             if scaler.get_scale() >= scale_before:
                 break
             print(f"step {step + 1}: fp16 overflow, update skipped; retrying with scale {scaler.get_scale():g}")
+        else:
+            raise RuntimeError(
+                f"step {step + 1}: gradients still overflow after {MAX_FP16_RETRIES} retries; "
+                "try --precision fp32" + (" or rerun without --compile" if args.compile else "")
+            )
 
         completed_steps = step + 1
         final_step = completed_steps == args.num_steps
