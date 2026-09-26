@@ -2,11 +2,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from pathlib import Path
 
+# Jupyter/Kaggle export MPLBACKEND=module://matplotlib_inline..., which a bare venv
+# can't import; matplotlib validates it at import time, so override it first.
+os.environ["MPLBACKEND"] = "Agg"
 import matplotlib
-
-matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 
