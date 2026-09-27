@@ -15,13 +15,18 @@ class RotaryPositionalEmbedding(torch.nn.Module):
         self.head_dim = int(head_dim)
         self.context_length = int(context_length)
 
-        pair_ids = torch.arange(0, head_dim, 2, dtype=torch.float64, device=device)
+        # Build the tables in float64 on CPU (MPS has no float64), then move them.
+        pair_ids = torch.arange(0, head_dim, 2, dtype=torch.float64)
         inv_freq = self.rope_theta ** (-pair_ids / head_dim)
-        positions = torch.arange(context_length, dtype=torch.float64, device=device)
+        positions = torch.arange(context_length, dtype=torch.float64)
         angles = positions[:, None] * inv_freq[None, :]
 
-        self.register_buffer("cos_table", angles.cos().to(torch.float32), persistent=False)
-        self.register_buffer("sin_table", angles.sin().to(torch.float32), persistent=False)
+        self.register_buffer(
+            "cos_table", angles.cos().to(device=device, dtype=torch.float32), persistent=False
+        )
+        self.register_buffer(
+            "sin_table", angles.sin().to(device=device, dtype=torch.float32), persistent=False
+        )
 
     def forward(self, x, token_positions):
         if x.shape[-1] != self.head_dim:
