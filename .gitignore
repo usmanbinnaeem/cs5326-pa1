@@ -18,3 +18,6 @@ submission.zip
 
 # PDF files generated for the assignment
 *.pdf
+
+# Older models and sweep checkpoints kept locally, never committed
+archived_models/

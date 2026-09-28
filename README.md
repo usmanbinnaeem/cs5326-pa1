@@ -29,6 +29,34 @@ contain the assignment mathematics. Do not edit the public test files.
 Grading may also use hidden tests through the same adapter interface. Hidden
 tests cover only behavior documented in the assignment manual.
 
+## Layout of this solution
+
+```
+src/                 implementation (layers, rope, attention, model, optim, data,
+                     checkpoint, train, evaluate, generate)
+tests/adapters.py    glue between the tests and src/
+REPORT.md            the written report
+report_assets/       the four report figures, standardized eval JSON, all 72 samples
+final_model.pt       submitted FP16 weights (alpha_max = 3e-3, 10,000 updates)
+scripts/             code that turns run logs into the report figures
+runs/                logs and configs (git-ignored)
+  final_3e-3/        the submitted model's run (+ decoding_stats.json)
+  baseline_3e-4/     full-length baseline at the recommended learning rate (+ eval.json)
+  lr_sweep/          1,000-update runs at 1e-4, 1e-3, 3e-3, 1e-2
+  overfit/           fixed-batch sanity check
+archived_models/     older weights and sweep checkpoints (git-ignored, not submitted)
+```
+
+Regenerate the figures from the repository root:
+
+```bash
+uv run python scripts/plot_metrics.py runs/overfit --labels overfit \
+    --output report_assets/fig1_overfit_sanity_check.png
+uv run python scripts/plot_lr_sweep.py
+uv run python scripts/plot_final_run.py
+uv run python scripts/decoding_stats.py
+```
+
 ## Download TinyStories
 
 The course dataset contains a fixed 8,192-token byte-level BPE tokenizer and the

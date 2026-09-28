@@ -1,0 +1,9 @@
+{
+  "weights": "/kaggle/working/runs/final_lr3e-3/final_model.pt",
+  "seed": 42,
+  "num_batches": 100,
+  "batch_size": 16,
+  "sequence_length": 256,
+  "mean_cross_entropy": 1.47941650390625,
+  "perplexity": 4.390383161956491
+}

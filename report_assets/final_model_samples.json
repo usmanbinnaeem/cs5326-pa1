@@ -1,0 +1,578 @@
+[
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.5,
+    "top_p": 0.5,
+    "seed": 0,
+    "num_new_tokens": 189,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she went to the park with her mommy. They saw a big, red ball and Lily wanted to play with it. \n\n\"Mommy, can I play with the ball?\" Lily asked.\n\n\"Sure, but be careful not to kick it too hard,\" her mommy replied.\n\nLily played with the ball for a while, but then she accidentally kicked it too hard and it went into the bushes. She started to cry.\n\n\"Don't worry, Lily. I'll get it for you,\" her mommy said.\n\nLily was happy to hear her mommy's kind words and they went to get the ball. When they got home, Lily's mommy gave her a big hug and said, \"You're such a good helper, Lily. I'm proud of you for being so kind and helpful.\"<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.5,
+    "top_p": 0.5,
+    "seed": 1,
+    "num_new_tokens": 178,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she went to the park with her mommy. They saw a big tree with lots of leaves. Lily wanted to climb the tree, but her mommy said it was too dangerous.\n\nLily was sad, but then she saw a butterfly. She wanted to catch it, but it flew away. Then, she saw a little bird with a broken wing. She felt sad for the bird and wanted to help it. She asked her mommy if they could take the bird home. Her mommy said yes, and they took the bird home.\n\nLily took care of the bird every day. She gave it food and water. The bird was happy and healthy. Lily was happy too because she helped the bird. She learned that it's important to help others when they need it.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.5,
+    "top_p": 0.5,
+    "seed": 2,
+    "num_new_tokens": 167,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to play outside in the park. One day, she saw a big, scary dog. The dog barked and growled at her. Lily was scared and ran away.\n\nLater that day, Lily's mom asked her to help with the laundry. Lily didn't want to help because she was scared of the dog. But her mom said, \"Don't worry, Lily. The dog won't hurt you. He just wants to play.\"\n\nLily felt better and went back to playing. She saw the dog again and wanted to pet him. But this time, she wasn't scared. She petted the dog and said, \"You're so soft and fluffy!\" The dog wagged his tail and licked her face. Lily was happy that she could help the dog.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.5,
+    "top_p": 0.9,
+    "seed": 0,
+    "num_new_tokens": 190,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and run around outside. One day, Lily's mom asked her to help with the laundry. Lily was happy to help and started to sort the clothes. She put the clothes in one pile and the toys in another.\n\nAfter they finished sorting, Lily's mom asked her if she wanted to go to the park. Lily was excited and said yes. When they got to the park, Lily saw her friend Sarah. Sarah had a new toy that Lily had never seen before. She asked Lily if she could play with it. Lily said yes and they played together.\n\nAs they were playing, Lily's mom asked her if she wanted to help with the laundry. Lily said yes and her mom helped her. They put the clothes in the washing machine and it was time to go home. Lily was happy to have a new friend to play with.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.5,
+    "top_p": 0.9,
+    "seed": 1,
+    "num_new_tokens": 174,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and run around outside. One day, she went to the park with her mom and saw a big, scary dog. She was scared and didn't know what to do.\n\nHer mom said, \"Don't worry, Lily. The dog won't hurt you. Let's go play on the swings instead.\" Lily was happy and they went to the swings. They had so much fun swinging back and forth.\n\nAfter a while, Lily's mom said, \"Let's go home now. It's getting dark.\" Lily said, \"Okay, Mommy. Let's go home.\" They walked home and Lily's mom made some hot chocolate. Lily said, \"Thank you, Mommy. I love you.\" Her mom said, \"I love you too, Lily.\"<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.5,
+    "top_p": 0.9,
+    "seed": 2,
+    "num_new_tokens": 157,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to play outside in the park. One day, she saw a big, brown dog. The dog was very friendly and wagged its tail. Lily wanted to pet the dog, but it was too big for her. \n\nLily's mom came to pick her up and saw that she had a question in her mind. \"What is your opinion about the dog?\" she asked. Lily thought for a moment and then said, \"I think the dog is very friendly.\" \n\nLily's mom smiled and said, \"That's a good opinion. Maybe the dog is not so scary after all.\" Lily nodded and said, \"I like dogs. They are nice.\" They continued to play and have fun in the park.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.5,
+    "top_p": 1.0,
+    "seed": 0,
+    "num_new_tokens": 168,
+    "text": "Once upon a time, there was a little boy named Timmy. Timmy loved to play with his toys and his friends. One day, Timmy's mom asked him to clean up his toys. Timmy didn't want to clean up, but his mom said it was important to keep his room clean.\n\nTimmy started to clean up his toys, but he couldn't find his favorite toy. He looked everywhere, but it was nowhere to be found. His mom reminded him that he needed to clean up his toys before he could play with it again.\n\nAfter cleaning up, Timmy felt proud of himself for doing the right thing. His mom reminded him that it's important to listen to your body and clean up after yourself. Timmy learned that it's important to keep his room clean and tidy so he can play with his toys without making a mess.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.5,
+    "top_p": 1.0,
+    "seed": 1,
+    "num_new_tokens": 173,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and run around outside. One day, she went to the park with her mom and saw a big, scary dog. She was scared and didn't know what to do.\n\nHer mom said, \"Don't worry, Lily. The dog won't hurt you. Let's go play on the swings instead.\" Lily ran to the swings and had so much fun. She swung higher and higher until she was too tired to swing anymore.\n\nAfter a while, Lily got tired and wanted to go home. But her mom said, \"Don't worry, Lily. We can come back to the park another day. But now we have to go home.\" Lily was sad to leave the park, but she was happy to have had a fun day with her mom.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.5,
+    "top_p": 1.0,
+    "seed": 2,
+    "num_new_tokens": 217,
+    "text": "Once upon a time there was a little girl named Emma. She was very curious and loved to explore the world around her.\n\nOne day, Emma decided to go for a walk in the park. As she was walking, she saw a big, yellow bird. The bird was so beautiful that Emma wanted to take it home. She asked her mom if she could take the bird home.\n\nHer mom said yes and Emma was so excited. She took the bird home and put it in a box. She wanted to take care of it and make sure it was safe.\n\nEvery day, Emma went back to the park to take care of the bird. She made sure it had plenty of food and water to eat. She fed it, played with it and gave it food.\n\nSoon, Emma had a very special pet. It was a small yellow bird with a white beak. Emma took care of it and fed it every day.\n\nThe bird was very happy and healthy. Emma was so proud of her pet, and she was happy to have a pet.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.8,
+    "top_p": 0.5,
+    "seed": 0,
+    "num_new_tokens": 253,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she went to the park with her mommy. They saw a big, red ball and Lily wanted to play with it. \n\n\"Mommy, can I play with the ball?\" Lily asked.\n\n\"Sure, but be careful not to kick it too hard,\" her mommy replied.\n\nLily played with the ball for a while, but then she accidentally kicked it too hard and it went into the bushes. She started to cry.\n\n\"Don't worry, Lily. I'll get it for you,\" her mommy said.\n\nLily felt better and they went to get the ball. But when they got there, they saw that the ball was gone. Lily was sad and didn't know what to do. She hugged her mommy and said, \"I'm sorry, mommy. I lost my ball.\"\n\nHer mommy hugged her back and said, \"It's okay, Lily. We can always get a new ball. But we have to be careful and not kick it too hard.\"\n\nLily nodded and they went back to playing. She was happy to have her ball back and to have fun with her mommy.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.8,
+    "top_p": 0.5,
+    "seed": 1,
+    "num_new_tokens": 136,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she went to the park with her mommy. They saw a big tree with lots of leaves. Lily wanted to climb the tree, but her mommy said it was too dangerous.\n\nLily was sad, but then she saw a butterfly. She wanted to catch it, but it flew away. Then, she saw a butterfly and tried to catch it. She ran after it, but it flew away. She was sad, but then she saw a little bird. The bird was also very attractive. Lily was happy again and she went back to playing in the sunshine.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.8,
+    "top_p": 0.5,
+    "seed": 2,
+    "num_new_tokens": 190,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to play outside in the park. One day, she saw a big, brown dog. The dog was very friendly and wagged its tail. Lily wanted to pet the dog, but her mommy said no because the dog might bite her. \n\nLily was sad, but then she saw a man with a big bag. He was giving the dog some food. Lily asked him if she could have some, but the man said no. Lily was sad, but then she saw a little boy who was also sad. She asked him if he wanted to play with her. The boy said yes and they played together. \n\nAfter a while, the man said it was time to go home. Lily was happy because she got to play with the dog and the man. She learned that sometimes it's better to ask for help instead of trying to take things that don't belong to you.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "seed": 0,
+    "num_new_tokens": 170,
+    "text": "Once upon a time, there was a little boy named Timmy. Timmy loved to play with his toys and his friends. One day, Timmy's mom asked him to help her make some cookies. Timmy was excited to help his mom, but he accidentally dropped a plate and it broke.\n\nTimmy's mom was upset, but she knew it was a serious problem. She told Timmy that he needed to be more careful and not leave his toys all over the place. Timmy felt bad for breaking his mom's plate and promised to be more careful next time.\n\nLater that day, Timmy's dad came home with a surprise. It was a toy car that could reverse all by itself! Timmy was so happy and thanked his dad for helping him. From that day on, Timmy always made sure to be extra careful with his toys and his mom's words.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "seed": 1,
+    "num_new_tokens": 199,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and run around outside. One day, she found a shiny rock in her backyard. It was so pretty!\n\nLily picked up the rock and showed it to her mom. \"Look, Mommy! I found a pretty rock!\" she said. Her mom smiled and said, \"That's a nice rock, Lily. It's a very special rock.\"\n\nLily kept the rock in her room and would look at it every day. She loved the smooth rock and how it shone in the sun. One day, Lily's mom came into her room and saw the rock. \"Lily, did you see that rock?\" she asked. \"Yes, Mommy! It's a beautiful rock!\" Lily replied.\n\nFrom that day on, Lily kept the rock in a special place in her room where she could see it every day. She knew it was something special and she would always remember it.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "seed": 2,
+    "num_new_tokens": 205,
+    "text": "Once upon a time there was a little girl who was very sad. She had no one to play with and she was very lonely. One day, she went for a walk in the woods. Suddenly, she heard a loud noise and she saw a very angry bear! The bear was big and scary and it was coming towards her. The little girl was scared, but she was brave and she stood up to the bear. She said in a gentle voice, â€œPlease donâ€™t be scared. I just wanted to play.â€\n\nThe bear looked at the little girl and then smiled. He said, â€œItâ€™s ok. I wonâ€™t hurt you.â€ The little girl felt better and she started to play with the bear. They ran and laughed and had a lot of fun together.\n\nAt the end of the day, the little girl was no longer lonely. She had made a new friend and she knew that she could always rely on the bear to make her feel better.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.8,
+    "top_p": 1.0,
+    "seed": 0,
+    "num_new_tokens": 153,
+    "text": "Once upon a time, there was a little boy named Timmy. Timmy loved to play with his toys and his friends. One day, Timmy's mom asked him to help her make some cookies. Timmy was excited to help his mom because he loved baking.\n\nAs Timmy was baking the cookies, he accidentally hurt his finger. His mom quickly took him to the hospital. The doctors tried to help him, but it was too late. Timmy's finger was too sore and he had to go to the hospital.\n\nTimmy felt sad that he couldn't play with his toys anymore. He learned that it's important to be careful with his toys and to always be safe. The moral of the story is to always be careful and listen to others when they tell the truth.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.8,
+    "top_p": 1.0,
+    "seed": 1,
+    "num_new_tokens": 136,
+    "text": "Once upon a time, there was a little girl called Lucy. She had a special box that she kept in her room. Every night, she would open the box to see what was inside.\n\nOne day, Lucy decided to turn the box and see what was inside. She opened the box, and there was a funny, funny-looking teddy bear! Lucy was so excited and she hugged the teddy bear and put both of it in her pocket.\n\nLucy and the teddy bear were best friends for a very long time. They played together, ran around the house, and sometimes even sang songs. Lucy always made sure to keep the teddy bear safe.\n\nThe end.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 0.8,
+    "top_p": 1.0,
+    "seed": 2,
+    "num_new_tokens": 144,
+    "text": "Once upon a time there was a little girl who was very sad. She had no one to play with and she was very lonely. One day, she spotted a pot filled with water. She had never seen anything like it before. She was so excited, she ran towards it.\n\nWhen she got closer, she was surprised to see that it was full of water! She was so happy that she jumped around in the water and started splashing and playing with the water.\n\nShe kept splashing and playing until it was time to go home. She was so tired and thirsty, but she had a great time playing with the pot. She was no longer lonely and was happy to have found something to do with the water!<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "seed": 0,
+    "num_new_tokens": 149,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and run around outside. One day, Lily's mom asked her to help set the table for dinner. Lily was excited to help and started to put the plates and cups together.\n\nAs she was putting the plates, she noticed a pretty vase on the table. She wanted to touch it, but her mom said it was fragile and might break. Lily didn't listen and touched the vase anyway. Suddenly, the vase fell and broke into many pieces.\n\nLily's mom was very upset and scolded her for not listening to her. Lily felt sad and knew she had done something wrong. She promised to always listen to her mom from now on.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "seed": 1,
+    "num_new_tokens": 152,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to play with her toys and run around outside. One day, she went to the park with her mom and saw a big, scary dog. She was scared and didn't know what to do.\n\nHer mom said, \"Don't worry, Lily. The dog won't hurt you. Let's go play on the swings instead.\" Lily felt better and they played together. After a while, Lily's mom said, \"Let's go home now.\"\n\nLily was happy to go home and her mom gave her a big hug. \"You're my hero, Lily,\" her mom said. \"You always help others when they need it.\" Lily smiled and felt proud of herself.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "seed": 2,
+    "num_new_tokens": 207,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to play outside in the park. One day, she saw a big, colorful bird in the sky. She wanted to catch it, but it was too high up. \n\nLily asked her mom, \"Can you help me catch the bird?\" \n\nHer mom said, \"Sure, let's go get some bread.\" \n\nThey went to the park and found a big, colorful bird. Lily tried to catch it, but it flew away. She said, \"I wish I could catch it.\" \n\nHer mom said, \"Maybe we can ask the bird if it wants to be your friend.\" \n\nLily said, \"I want to be your friend!\" \n\nThe bird said, \"Yes, I want to be your friend!\" \n\nLily and her mom went home and Lily's mom made some yummy bread for the bird. The bird was very happy and flew away. Lily felt happy too, knowing that she had helped the bird.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "seed": 0,
+    "num_new_tokens": 198,
+    "text": "Once upon a time, there was a little boy named Timmy. Timmy loved to play with his toys and his friends. One day, Timmy's mom asked him to carry a basket of apples to the porch. Timmy felt confused because he wanted to do it right away.\n\nTimmy's mom said, \"Timmy, put the basket on the porch where the sun is hiding. You can put all your toys away and play nicely.\" Timmy did what his mom said and put all his toys in the basket.\n\nAfter playing, Timmy went outside to play. He saw a big black dog running towards him. Timmy's mom said, \"Stop, dog! That dog is going to bite you!\" The dog stopped and looked at Timmy. It was scared and didn't want to move. Timmy's mom then said, \"See, I told you you wouldn't yield to the dog. It was just trying to protect its home.\" Timmy felt relieved and happy that his mom was keeping him safe.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "seed": 1,
+    "num_new_tokens": 194,
+    "text": "Once upon a time, there was a little girl called Sophie. She had a special tool that she called her tool. She was always very careful with it.\n\nOne day, Sophie wanted to try to push the tool, so she put it in her pocket. But it was too heavy.\n\nThen, Sophie decided to push the tool into the secret box. But when she tried to push it, the tool moved! It was so heavy that she couldn't even move it.\n\nSophie kept trying and tried her best to push the tool away from the box, but it was too heavy. Finally, she had to give up. She started to cry, but then her dad came over and said, \"Let's try again!\" This time, Sophie was more careful. And again, this time she was able to push the tool away from the box!\n\nSophie was so proud that she had used her tool, and it was the best feeling ever!<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "seed": 2,
+    "num_new_tokens": 146,
+    "text": "Once upon a time there was a fat cat. The cat liked to sleep all day and never felt very happy. One day the cat decided to go outside and search for a nice place to rest.\n\nThe cat wandered and wandered until it found a cozy spot in the grass. It was a perfect spot for a nap. The cat curled up and soon it was fast asleep.\n\nBut then, something happened! A big cat came out of nowhere and scared the cat away. The cat wasn't alone and the cat came back to the spot.\n\nThe cat meowed and waved goodbye. The cat lay there for a very long time, but eventually it was too tired to wander. It curled up and fell asleep until morning.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "seed": 0,
+    "num_new_tokens": 170,
+    "text": "Once upon a time, there was a little boy named Timmy. Timmy loved to play with his toys and his friends. One day, Timmy's mom asked him to carry a basket of apples to the porch. Timmy felt confused because his apples were big and prickly.\n\nTimmy's mom realized that he wouldn't be able to carry the apples anymore. So, she came over and gave him a big bag of apples instead. Timmy was so happy and felt very wise for carrying the apples all the way to the porch. He learned that use reliable help can make things easier and take care of ourselves.\n\nTimmy's mom also told him that it's always important to take your time and value all the things you have. Timmy understood the moral of the story and finally picked up the apples carefully and walked back home with a big smile on his face.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "seed": 1,
+    "num_new_tokens": 188,
+    "text": "Once upon a time, there was a healthy girl. She was nice, strong and brave. The girl liked to show her friends her strong muscles. One day, her friends asked her to cook something special for them. She smiled and eagerly took out her chop. She chopped and chopped until the dough was ready. Then, she decorated it with sparkly colours. \n\nWhen her friends saw the healthy orange food, they were filled with happiness. They all enjoyed their meal and the girl was proud of her cutting skills. She felt great playing with her friends, making them laugh and have so much fun. \n\nFrom that day on, the girl wanted everyone to have a bite of her cut. Not only took her friends's sharp strings and flames, they knew she was strong. Everyone agreed that if they wanted to eat the healthy, they could unite and race too.\n\nOf course, the healthy orange box was filled with lots of laughter!<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "seed": 2,
+    "num_new_tokens": 139,
+    "text": "Once upon a time there was a fat cat. The cat liked to sleep all day and never want to play. One day the cat's owner decided to send it away. She brought it back outside and gave it a name - S beating. \n\nThe cat was excited to tell her friends about the exciting new thing. She started to read the rules and soon everyone was telling her the rules. Everyone said the words were great and had lots of fun.\n\nThe moral of the story is that it is important to be happy with what you have and not own something like this. Fenever loves to receive things,even the colourful way. So it's important to have fun and be happy.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.3,
+    "top_p": 0.5,
+    "seed": 0,
+    "num_new_tokens": 162,
+    "text": "Once upon a time, there was a little boy named Timmy. Timmy loved to eat yummy cookies. One day, Timmy's mom baked a delicious cookie for him. Timmy was so happy and ate it all up. \n\nAfter eating the cookie, Timmy wanted to play outside. He went to the door and pushed it open. The door opened and he saw his friend, Sarah. Sarah was happy to see Timmy and they played together all day. \n\nWhen it was time for Timmy to go home, he asked Sarah if she could stay longer. Sarah said yes and they played together all day. Timmy was so happy to have such a good friend. When it was time to go home, Timmy gave Sarah a big hug and said goodbye. He was so grateful for his kind friend and the cookie he gave her.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.3,
+    "top_p": 0.5,
+    "seed": 1,
+    "num_new_tokens": 169,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to draw with her crayons. One day, she drew a picture of a beautiful flower. \n\nHer mom came in and said, \"Lily, what are you doing? You are so creative!\" \n\nLily replied, \"I'm drawing a flower! It's so pretty!\" \n\nHer mom smiled and said, \"I'm glad you like it. It's a beautiful drawing of a flower.\" \n\nLily was so happy that she got to see the flower and make something so special. She decided to draw a picture of it and show it to her mom. \n\nFrom that day on, Lily drew pictures of the flower and it made her smile. She was grateful for her mom's creative drawings and was happy to have a creative drawing to show her dad.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.3,
+    "top_p": 0.5,
+    "seed": 2,
+    "num_new_tokens": 187,
+    "text": "Once upon a time, there was a little girl named Lily. She loved to play outside in the park. One day, she saw a big, colorful helicopter flying in the sky. She was so excited to see it!\n\nLily ran to her mommy and said, \"Mommy, look at the helicopter! It's so pretty!\" Her mommy smiled and said, \"Yes, it is. But be careful, Lily. It's very fast and loud.\"\n\nLily nodded and ran around the park, chasing the helicopter. She saw the helicopter in the sky and shouted, \"Look, mommy! It's flying!\" Her mommy said, \"Yes, it's a helicopter. It's flying so fast!\"\n\nLily felt so happy and she said, \"I want to fly like a helicopter!\" Her mommy laughed and said, \"Maybe one day you will.\" And they went home, happy and tired from their day of playing.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.3,
+    "top_p": 0.9,
+    "seed": 0,
+    "num_new_tokens": 135,
+    "text": "Once upon a time, there was a little boy who was shaking fast. He had an envious look on his face, for it could make him feel smaller. He felt small and hard so he could just laugh out loud.\n\nThe little boy decided to run on his bikes to the ground below him. He wanted to try a hill over there in no time. With even though he felt envious of the boy, he refused to get faster and more excited, even for the first ones! \n\nHe went back home, still shaking his chocolate mistakes, and regretting his selfish mood. He stopped riding down the road, left feeling sad but much shared on with the poor man!<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.3,
+    "top_p": 0.9,
+    "seed": 1,
+    "num_new_tokens": 197,
+    "text": "Once upon a time, there was a healthy turkey named Tom. Tom liked to run around in the woods and play with his friends. One day, Tom saw a small bird with zero feathers on its body. The bird was sad because it could not fly.\n\nTom said to the bird, \"Don't be sad, bird. I will provide you with strong shells to plant in the reduce Poor!\" The bird tried and tried, but every night, the nest scared, and Tom would sigh about time.\n\nOne day, Tom's big friends came to visit and were surprised to see the nest on the red Charlie's windch, because they never said yes. They all picked up different shells and treasures in a pile. Tom, on the red sides of the red shook twig, he helped his friends close the nest very carefully.\n\nFrom that day on, the nests became less boring and more fun for many people who needed to provided food for their young friends.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.3,
+    "top_p": 0.9,
+    "seed": 2,
+    "num_new_tokens": 206,
+    "text": "Once upon a time there was a fat cat. One day the cat wanted to have some fun. He asked his owner, â€œPlease can I get married?â€ His owner smiled and said yes.\n\nOn his way to agree with a wedding, his owner started to disagree. There was no one in particular: The shower was ruined.\n\nThe cats were very worried. They ran away, wanting to find out who was happening. \n\nAt this process of a mean monster, the cats became fast quick. He chased the fat cat away until they were dead.\n\nThe people in the house heard what was happening. They asked the fat cat why he didn't seem to judge it for him. The cat stayed peaceful and relented, who was declared the winner!\n\nThe moral of the story is, â€œYou can't definitely reach up and still get to, itâ€™s best to share your love in a plan. Even after people relax and slip away like the fat cat.<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.3,
+    "top_p": 1.0,
+    "seed": 0,
+    "num_new_tokens": 199,
+    "text": "Once upon a time, there was a little boy who was shaking fast. He had an envious look on his face, for it winking radiating being chased in foot. until after school, he won! \n\nThe other kids squinting almost stopped jumping rarely and quickAreoutake himself asked why they were called him leaping race turtles. an argument became as more and more band engra won, shouting 'Stop!' as they calmly deer.\n\nOne ad caution, something loud came out from using giantocular noise. Joey told another turtle that as night had ended in terribiddenment, anything amazing was possible or was about to stop worrying - the game drum Wha stove snake! \n\nThe next day, they'd listen to celebrate and be Michael again and tell more of others how happy we are occasionally the strongest young in town. Eventually, the other fish started making their patience, realizing the difference between teaching keep things popular!<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.3,
+    "top_p": 1.0,
+    "seed": 1,
+    "num_new_tokens": 42,
+    "text": "Once upon a time, there was a healthy grass field. It was a very sunny day, and some boxes of new stuff to explore.\n\nA pony was named Jim. A pig lived in the pretty grass, and<|endoftext|>"
+  },
+  {
+    "prompt": "Once upon a time",
+    "temperature": 1.3,
+    "top_p": 1.0,
+    "seed": 2,
+    "num_new_tokens": 179,
+    "text": "Once upon a time there was a fat cat. One day the cat wanted to have some fun. He asked his owner horn on the door and his owner replied -- doggy would wagging his tail faster than any  at a time! The cat hear his owner and was happy.\n\nThe cat began to twirl and zoom around the house. He crawled faster than usual, having fun. Soon, he felt a little tired. He yawned and curled up in bed shampoo dening because he knew the water was a nice calm Max!\n\nMax's owner was too tired for a treat any when the chubby cat walked in. distance behind him made him a delicious cookies. He grabbed a jar of olives and went back to bed feeling refreshed. He finally smelled the open air and found just what he was looking at! Love and desserts enjoying plays came outside every morning, and eat airplane sweets away.<|endoftext|>"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.5,
+    "top_p": 0.5,
+    "seed": 0,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw a big slide. Tom wanted to go on the slide. He said, \"Let's go on the slide. It looks fun.\"\n\nTom said, \"No, I want to go on the slide. It looks fun.\"\n\nSam said, \"But I want to go on the slide. It looks fun.\"\n\nTom said, \"No, you can't. The slide is too high. You will fall and hurt yourself.\"\n\nSam said, \"I don't care. I want to go on the slide. It looks fun.\"\n\nTom said, \"No, you can't. The slide is too high. You will fall and hurt yourself. You are a baby.\"\n\nSam said, \"No, I am not. I am a baby. I can go on the slide. Watch me.\"\n\nSam ran to the slide and climbed up the ladder. He was not careful. He slipped and fell. He hurt his knee. He cried.\n\nTom ran to Sam and helped him up. He said, \"Are you okay, Sam? I am sorry. I should have listened to you. You are a good friend.\"\n\nSam said, \"It's okay, Tom. I"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.5,
+    "top_p": 0.5,
+    "seed": 1,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw a big slide. Tom wanted to go on the slide. He said, \"Let's go on the slide. It looks fun.\"\n\nTom said, \"No, I want to go on the slide. It looks fun.\"\n\nSam said, \"Don't be silly. The slide is fun. You can go on the slide. I will go first.\"\n\nTom said, \"No, I will go first. You go first.\"\n\nSam said, \"No, I go first. You go first.\"\n\nTom said, \"No, I go first. You go first.\"\n\nSam said, \"No, I go first. You go first.\"\n\nTom said, \"No, I go first. You go first.\"\n\nSam said, \"No, I go first. You go first.\"\n\nTom said, \"No, I go first. You go first.\"\n\nSam said, \"No, I go first. You go first.\"\n\nTom said, \"No, I go first. You go first.\"\n\nSam said, \"No, I go first. You go first.\"\n\nTom said, \"No, you go first. I go first.\"\n"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.5,
+    "top_p": 0.5,
+    "seed": 2,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw a big slide. Tom wanted to go on the slide. He ran to the slide and climbed up the ladder. He was very happy.\n\nBut when he got to the top, he saw a big dog. The dog was barking and running towards him. Tom was scared. He did not want the dog to bite him. He shouted, \"Help! Help! The dog is coming!\"\n\nA man heard Tom. He was a park ranger. He ran to the dog and picked him up. He said, \"Don't worry, little boy. I will take you to the doctor. He will make you feel better.\"\n\nThe park ranger took Tom to the doctor. The doctor gave him a bandage and a sticker. He said, \"You are brave, Tom. You did the right thing. You are a good boy.\"\n\nTom felt better. He said, \"Thank you, park ranger. You are a good friend.\"\n\nThe park ranger smiled. He said, \"You are welcome, Tom. You are a good boy. You are a good boy.\"\n\nTom and the park ranger went home. Tom was happy. He had a new friend. He learned a lesson. He learned to be careful"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.5,
+    "top_p": 0.9,
+    "seed": 0,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw many things: birds, flowers, dogs, and people. Tom liked the park. He wanted to go there. He asked his mom if he could go.\n\n\"Sure, Tom, but you have to stay close to me and hold my hand. We don't want to get lost,\" his mom said.\n\nTom nodded. He was happy. He held his mom's hand and walked to the park. He saw a big slide. He wanted to go on it.\n\n\"Mom, can I go on the slide?\" he asked.\n\n\"Yes, Tom, you can go on the slide. But be careful, don't go too high,\" his mom said.\n\nTom nodded. He climbed up the ladder and sat on the slide. He pushed himself down and went fast. He felt the wind in his hair and the sun on his face. He laughed and shouted.\n\n\"Wow, this is fun! I want to go again!\" he said.\n\nHe reached the top of the slide and looked down. He saw his mom waiting for him. She smiled and waved.\n\n\"Look, mom, look!\" he shouted.\n\nHis mom looked up and saw him. She was surprised"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.5,
+    "top_p": 0.9,
+    "seed": 1,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw many things. They saw birds, flowers, trees, and people. They liked to look at them and learn their names.\n\n\"Look, Tom, a big red truck!\" Lily said, pointing to a shiny red truck. \"It has a loud horn!\"\n\n\"Wow, it is so cool!\" Tom said. \"Can we go and see it?\"\n\n\"Maybe, Tom, but we have to be careful. The truck is very big and fast. It can hurt us if we go too close.\" Lily said.\n\nThey walked to the truck and saw a man. He was wearing a hat and a coat. He was holding a big bag.\n\n\"Hello, kids, what are you doing?\" the man asked.\n\n\"Hello, mister, we are looking for a place to take a ride in the truck. We want to see the truck and the people and the animals,\" Tom said.\n\n\"Well, you can't go in the truck, but I can show you. Come with me, I will show you,\" the man said.\n\nHe took them to a big truck and showed them the horn and the lights. He told them the names of the animals and what they did"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.5,
+    "top_p": 0.9,
+    "seed": 2,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw many things. They saw swings, slides, flowers, and a pond. They also saw a big sign. The sign said \"Do not enter\". Tom did not know what it meant. He wanted to see the sign.\n\nHe asked his mom, \"Mom, what is this sign?\" His mom said, \"This is a sign. It says, 'Do not enter.' Do you want to see?\" Tom said, \"Yes, please.\" His mom said, \"Okay, but be careful. Don't go too close to the sign.\" Tom said, \"I won't. I'm a good boy.\"\n\nHe went to the sign. He saw a big sign. It said, \"Do not enter. This sign says no dogs allowed.\" Tom was scared. He said, \"Sorry, mom. I won't enter.\" He tried to open the sign. But it was too hard. He pushed it. It made a loud noise. He cried.\n\nHis mom heard him cry. She came to his room. She saw him open the sign. She said, \"Tom, you should not enter the sign. It is not a place for dogs. It is a sign. It is for the park. You could"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.5,
+    "top_p": 1.0,
+    "seed": 0,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw many things: birds, flowers, dogs, and people. Tom liked the park. He wanted to go there. He asked his mom if he could go.\n\n\"Sure, Tom, but you have to stay close to me and hold my hand. We don't want to get lost,\" his mom said.\n\nTom nodded. He was very happy. He held his mom's hand and walked to the park. He saw a big slide and wanted to try it. He left his ball on the bench and walked to the slide. He climbed up the ladder and slid down. He felt the wind in his hair and the sun on his face. He laughed and shouted.\n\n\"Tom, come back! You are not going to the park! You are going too fast!\" his mom said.\n\nBut Tom did not hear her. He was too busy looking at the park. He saw a big dog running towards him. The dog was barking and growling. It looked angry and scary. Tom was afraid. He dropped his ball and ran back to his mom.\n\n\"Mom, mom, there is a big dog! It is scary! It wants to bite me!\" Tom cried.\n\nHis mom hugged him and said"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.5,
+    "top_p": 1.0,
+    "seed": 1,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw many things. They saw birds, flowers, trees, and people. They liked to look at them and learn their names.\n\n\"Look, Tom, a big red truck!\" Lily said, pointing to a shiny red truck. \"I want to drive it.\"\n\n\"Me too,\" Tom said. \"Let's go and see.\"\n\nThey ran to the truck and waved at the driver. The driver saw them and smiled. He said, \"Hello, kids. Do you like my truck?\"\n\n\"Yes, it is very nice,\" Tom said. \"Can we touch it?\"\n\n\"Sure, you can,\" the driver said. \"But be careful. It is very big and strong.\"\n\nTom and Lily touched the truck. It felt rough and heavy. They felt the wheels and the wheels. They felt happy.\n\n\"Thank you, driver,\" Lily said. \"You are very nice.\"\n\n\"You're welcome, kids,\" the driver said. \"You are very polite. You have a nice horn.\"\n\nTom and Lily hugged the driver. They said goodbye to the driver and went back to their house. They told their mom about their adventure. She was very proud of them."
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.5,
+    "top_p": 1.0,
+    "seed": 2,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw many things. They saw swings, slides, flowers, and a pond. They also saw a big sign. The sign said \"Do not enter\". Tom did not know what it meant. He wanted to see the sign.\n\nHe asked his mom, \"Mom, what is this sign?\" His mom said, \"This is a place where people go to learn how to play and have fun. It is not safe.\" Tom was confused. He did not understand. He asked his mom, \"What is a place?\" His mom said, \"A place where you can play, Tom. A place where you can learn and have fun. A place where you can be safe and happy.\"\n\nTom was curious. He wanted to learn. His mom said, \"You can play with your friends. But you have to stay close to me. We are going to a place where there are many things to learn and have fun.\" Tom nodded. He said, \"OK, mom. I will stay close to you. I will play with my friends and have fun.\" His mom smiled. She said, \"I am happy you are here. I am glad you are here.\" She gave him a hug and a kiss. She said, \"I"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.8,
+    "top_p": 0.5,
+    "seed": 0,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw a big slide. Tom wanted to go on the slide. He said, \"Mom, can I go on the slide?\"\n\nMom said, \"Yes, but be careful. The slide is very high and fast.\"\n\nTom climbed up the ladder. He sat on the slide. He held his breath. He looked down. He saw the slide. He said, \"I want to go on the slide.\"\n\nHe pushed himself down the slide. He went very fast. He felt the wind in his hair. He laughed. He said, \"Whee!\"\n\nBut then he saw something. He saw a big dog. The dog was barking. The dog was barking. The dog was not happy. The dog was angry. The dog barked. The dog jumped. The dog bit the slide. The dog ran away.\n\nTom and Lily were scared. They ran to the slide. They climbed up the ladder. They slid down the slide. They screamed. They were hurt.\n\nMom heard them. She ran to the slide. She saw the dog. She was scared too. She called the dog. She said, \"Go away, bad dog! You are not welcome here!\"\n\nThe dog was sad."
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.8,
+    "top_p": 0.5,
+    "seed": 1,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw a big slide. Tom wanted to go on the slide. He said, \"Let's go on the slide. It looks fun.\"\n\nTom said, \"No, Tom. The slide is too high. I will fall and hurt myself.\"\n\nTom did not listen. He ran to the slide. He climbed up the ladder. He sat on the slide. He looked down. He felt scared. He said, \"Tom, come down. It is not safe.\"\n\nTom did not listen. He said, \"I am brave. I am strong. I can do it.\" He slid down the slide. He felt the wind in his hair. He laughed.\n\nBut he did not see the big rock in his way. He hit the rock. He fell off the slide. He hurt his head. He cried. He said, \"Ow, ow, ow. My head hurts. It hurts.\"\n\nTom heard him. He ran to him. He saw his head. He said, \"Oh, Tom. What happened? Are you okay?\"\n\nTom said, \"I am sorry. I was silly. I should have listened to you. You were right. The slide was not safe. I was silly"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.8,
+    "top_p": 0.5,
+    "seed": 2,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw a big slide. Tom wanted to go on the slide. He ran to the slide and climbed up the ladder. He slid down fast and laughed.\n\n\"Come on, Tom, it's fun!\" Sam said. He followed Tom to the slide. He climbed up the ladder and sat on the top. He looked down and saw how high he was. He felt scared. He wanted to go back.\n\n\"Tom, come down!\" Sam shouted. He was scared too. He wanted to go back. But he did not want to slide down. He looked at the slide. He saw the big dog. The big dog was angry. The big dog barked and ran to the slide. He jumped on the slide and bit Tom's leg. Tom screamed and cried. He wanted his mom.\n\nSam heard Tom scream. He ran to the slide. He saw the big dog and the big dog. He was scared. He did not know what to do. He wanted to help Tom. He looked around. He saw a stick. He picked up the stick. He threw the stick at the big dog. The big dog let go of Tom. Tom let go of the stick. He ran to the slide. He climbed up the"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "seed": 0,
+    "num_new_tokens": 27,
+    "text": "Tom and his dog went to the park. They saw many things: birds, dogs, flowers, swings and slides. Tom was happy. He had a good day.<|endoftext|>"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "seed": 1,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw many things. They saw birds, squirrels, flowers, and swings. Tom was happy. He had a new friend. He liked the park. He liked to play with the ball. He liked to help his mom and dad. He liked to have fun.\n\nOne day, Tom saw a big dog. The dog was brown and fluffy. It had a red collar. The dog ran to Tom and wagged its tail. Tom was scared. He did not like dogs. He did not like loud noises. He hid behind his mom. He trembled.\n\nThe dog came to Tom. It sniffed him and licked him. It was friendly. Tom smiled. He petted the dog. The dog wagged its tail. Tom felt happy. He made a new friend.\n\nTom and the dog played with the ball. They threw the ball and the dog fetches it. They laughed and had fun. Tom forgot about the dog. He forgot about the time. He only remembered the dog. He was a little scared. He wanted to go home.\n\nBut then, something bad happened. The dog saw a squirrel. The squirrel was small and brown. The squirrel had a nut in its mouth. The squirrel liked nuts. The squirrel wanted"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "seed": 2,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park every day to play. They liked to slide, swing, and run. They had a lot of fun.\n\nOne day, Tom saw a big hill. He wanted to climb it and see what was on the other side. He asked his mom if he could go. His mom said no, it was too dangerous. Tom was sad, but he listened to his mom.\n\nTom climbed the hill very fast. He saw a big tree with a hole in it. He thought it would be fun to climb. He ran to the tree and looked inside. He saw something shiny. He reached for it, but it was too far. He pulled it down and looked inside. He saw a shiny coin. It was his coin!\n\nHe was happy and ran to show his mom. He said, \"Look, mom, I found a coin! It's so shiny and pretty!\" His mom looked at the coin and said, \"That's great, Tom, but be careful. Don't drop it or hurt yourself.\"\n\nTom did not listen. He wanted to keep the coin. He thought it was the best thing ever. He put it in his pocket and ran back to the tree. He did not see the big dog who came to"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.8,
+    "top_p": 1.0,
+    "seed": 0,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw many things: birds, dogs, flowers, swings and slides. Tom was happy to see everything.\n\nBut then, Tom saw something strange. He saw a big bush with a hole in it. He wanted to see what was in the hole. He followed the hole and saw something shiny. He also saw something that looked like a long stick. But it was not a stick. It was a rubber ball.\n\nTom was curious. He wanted to see the rubber ball. He picked up the rubber ball and ran to the hole. He looked inside. He saw something shiny and round. It was a coin. He thought it was worth a try.\n\nHe picked up the coin and threw it in the air. He laughed and ran. He did not see the dog that was running towards him. The dog was curious. He wanted to see the coin too. He jumped out of the hole and chased Tom.\n\nTom was scared. He dropped the ball and ran back to his hole. He did not want to go back. He did not want to be hurt. He did not want to lose his ball. He wanted to finish his game.\n\nHe heard a voice. It was his mom. She was calling him"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.8,
+    "top_p": 1.0,
+    "seed": 1,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw many things. Tom saw birds, squirrels, and dogs. He liked to watch them. He wanted to touch them.\n\nBut then, Tom saw a big dog. The dog was loud and scary. It barked and ran to Tom. Tom was scared. He dropped his ladder and ran back to the park. He hugged his dog.\n\n\"Tom, no!\" his dog ran to the park. It was his friend. It was nice and friendly. It came to Tom and his dog. It licked Tom's face. It made them laugh.\n\n\"Go away, dog!\" Tom said. \"This is my park. You can't come here. You are mean. Leave me alone!\"\n\nThe dog heard Tom. It was very afraid. It did not like Tom. It ran away. It chasing Tom and his dog. It was happy.\n\nBut then, something bad happened. The dog ran into a tree. It saw the dog. It barked and growled. It wanted to play. It wanted to bite Tom and his dog.\n\n\"Help!\" Tom cried. \"The dog is not nice. The dog is bad.\"\n\nHe tried to run away. But the dog was faster. It jumped"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 0.8,
+    "top_p": 1.0,
+    "seed": 2,
+    "num_new_tokens": 134,
+    "text": "Tom and his dog went to the park every day to play. They saw many animals, like birds, squirrels, and dogs. Tom loved to go to the park and watch the humans play.\n\nOne day, Tom's mom told him that the humans were going to have a big test. Tom was very excited. He wanted to try something new. So, he went with his mom to the park.\n\nAt the park, Tom saw lots of kids playing. They were having a lot of fun. Tom wanted to play too. He asked his mom if he could play with them. His mom said yes. Tom and the other kids played together. They were happy and had fun.<|endoftext|>"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "seed": 0,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw a big tree with a swing. Tom wanted to play on the swing, but his dog was scared. Tom's dog, Spot, ran to the swing and jumped on it.\n\n\"Spot, come here!\" Tom shouted. \"You can't play on the swing!\"\n\nSpot barked and ran to the swing. He jumped on it and pushed with his nose. He made a lot of noise. He did not care that he was making a mess.\n\nTom's mom heard the noise and came to the park. She saw Tom and Spot on the swing. She was not happy.\n\n\"Tom, Spot, stop!\" she said. \"You are making too much noise. You are not being careful. You are making too much noise. You are making too much noise. You are making too much noise. You are not being nice to Spot.\"\n\nTom looked at his mom. He saw her angry face. He felt sorry. He did not mean to make her angry. He just wanted to have fun.\n\n\"Sorry, mom,\" he said. \"I was just having fun. I like to swing. I will not do it again.\"\n\nHis mom smiled. She hugged him and said, \""
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "seed": 1,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw a big slide. Tom wanted to go on the slide. He said, \"Let's go on the slide. It looks fun.\"\n\nTom said, \"No, Tom. The slide is scary. We might fall and hurt ourselves.\"\n\nBut Tom did not listen. He ran to the slide. He climbed up the ladder. He sat on the top. He looked down. He felt scared.\n\nLily saw Tom. She was worried. She said, \"Tom, are you okay? I will catch you.\"\n\nTom looked at Lily. He saw her face. He saw her face. He felt sorry. He said, \"I'm sorry, Lily. I was wrong. I should have listened to you. You were right. The slide was scary. I should have listened to you.\"\n\nLily said, \"It's okay, Tom. I'm glad you are okay. But you should not go on the slide. It is not safe. You could get hurt. You should listen to me. I love you.\"\n\nTom said, \"I love you too, Lily. You are my friend. I will listen to you. I will not go on the slide again. I will listen to you."
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.0,
+    "top_p": 0.5,
+    "seed": 2,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw a big slide. Tom wanted to go on the slide. He ran to the slide and climbed up the ladder. He slid down fast and laughed.\n\n\"Come on, Tom, it's fun!\" Sam said. He followed Tom to the slide. He climbed up the ladder and sat on the top. He looked down and saw how high he was. He felt scared. He wanted to go back.\n\nBut then he heard a voice. It was his mom. She was calling him. \"Tom, come down now! It's time to go home!\"\n\nTom looked down. He saw his mom looking at him. She looked worried. He knew he was in trouble. He wanted to go home. He wanted to stay and play.\n\n\"Tom, I'm sorry,\" his mom said. \"I was worried about you. You can come down now. But please, don't go on the slide again. It's not safe.\"\n\nTom nodded. He was sorry too. He did not want to make his mom sad. He climbed down the ladder. He ran to his mom. He hugged her. He said, \"I'm sorry, mom. I was silly. I won't go on the slide"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "seed": 0,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw many things: birds, dogs, flowers, swings and slides. Tom was happy to see everything.\n\nBut then, Tom saw something strange. He saw a big bush with a hole in it. He wanted to see what was in the hole. He crawled closer and looked inside the hole. He saw a brown and furry animal with horns. It was a fox!\n\nTom was scared of the fox. He tried to run away, but the fox was fast. It jumped out of the hole and ran after him. Tom was very wet and cold. He tried to crawl out, but the fox was faster. The fox grabbed Tom with its claws and scratched him. Tom screamed and cried.\n\nTom's dad heard him and ran to the park. He saw Tom's feet and feet were covered in dirt. He felt sorry for Tom and gave him a hug. He said it was okay, he was not hurt. He said he had a surprise for Tom. He took him to a big hole in the ground. He told Tom to be careful and not to go near the fox. He said it was a trap for wild animals.\n\nTom learned his lesson. He said he was sorry to the fox. He said he would"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "seed": 1,
+    "num_new_tokens": 78,
+    "text": "Tom and his dog went to the park. They saw many kids playing and having fun. The kids wanted to play too. They all wanted to play together. Tom had an idea.\n\nTom found a ball and kicked it to the kids. The kids were happy and played together. They kicked the ball and ran fast. The kids watched Tom and his dog play. They clapped and cheered. Tom was happy too.<|endoftext|>"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "seed": 2,
+    "num_new_tokens": 153,
+    "text": "Tom and his dog went to the park every day to play. They saw many animals, like birds, squirrels, and dogs. Tom loved to go to the park and watch the squirrels play.\n\nOne day, Tom and his dog saw a squirrel on a tree. The squirrel was sad because it could not find its food. Tom felt bad for the squirrel and wanted to help. He told his dog, \"Don't be sad. I will support you and take care of you.\"\n\nTom's dog, Spot, and his dog went to the park. They found the squirrel under the tree. The squirrel was very happy. Tom and Spot felt good for helping the squirrel. The moral of the story is to always be kind and share with others, even if it is hard.<|endoftext|>"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "seed": 0,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw many things: birds, dogs, flowers, swings and slides. Tom was happy to see everything.\n\nBut then, Tom saw something strange. He saw a big bush with a hole in it. He wanted to see what was in the bush. He remembered that his mom told him not to go near the bush. She said dirt and rocks could break when hurt. But Tom did not listen. He wanted to see what was in the hole.\n\nHe ran to the bush and started to pull his hand inside the hole. He did not see the mole that was hiding behind a rock. The mole was angry and wanted to hide too. It reached out a hole and bounded out.\n\nTom was surprised and scared. He dropped his hand and covered his palm with dirt. He heard his mom calling him.\n\n\"Tom, what are you doing?\" she asked. \"You should not touch the bush!\"\n\nTom was sorry and ashamed. He listened to his mom. He felt ashamed and sorry. He wanted to say sorry to the mole. He wanted to give it a pat.\n\nHe got an idea. He picked up a stick and poked the hole. He hoped the mole would come out and bark."
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "seed": 1,
+    "num_new_tokens": 103,
+    "text": "Tom and his dog went to the park. They saw many kids playing and having fun. The kids wanted to play too. They all seemed to have fun. Tom, the furry dog, and the soft dog all wanted to join.\n\nTom played fun games with the kids. They were all friendly and happy. They played together all day. At the end of the day, Tom stayed at the park and played with the kids and the fluffy dog until it was time to go home. They all said goodbye and promised to play again soon.<|endoftext|>"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "seed": 2,
+    "num_new_tokens": 163,
+    "text": "Tom and his dog went to the park every day to play. In the park, they saw a big tree with wide leaves. Tom loved to poke the tree with his finger. At the tree, Tom would poke his finger and keep it safe. The tree was fun to poke and make loud noises.\n\nOne day, Tom found a long stick. He thought it would make him look stronger. He tried to poke the stick in, but it hurt too much. Tom's finger hurt more than before! He had to go to the hospital to get better.\n\nAt the hospital, Tom met a nice nurse named Sally. She saw that Tim was hurt and wanted to help him feel better. Sally was very nice and helped Tom find more things to poke with. They were both very happy and played together all day in the park.<|endoftext|>"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.3,
+    "top_p": 0.5,
+    "seed": 0,
+    "num_new_tokens": 126,
+    "text": "Tom and his dog went to the park to play. They saw a man who looked sad. Tom's dog asked, \"Why are you sad?\" The man said, \"I lost my hat and I can't find it.\" Tom thought for a moment and said, \"I can help you find your hat!\"\n\nTom and the man looked for the hat. They asked everyone they met. At last, they found the hat under a tree. The man was so happy! He said, \"Thank you, Tom!\" Tom felt good that he could help someone.\n\nThe moral of the story is that helping others can make you feel good too.<|endoftext|>"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.3,
+    "top_p": 0.5,
+    "seed": 1,
+    "num_new_tokens": 244,
+    "text": "Tom and his dog went to the park. They saw many kids playing and having fun. Tom wanted to join them, but he was shy. He watched them from a distance.\n\n\"Can I join them?\" Tom asked the boy.\n\n\"Sure, you can join us,\" the boy said. \"You are nice and polite. Do you want to play with us?\"\n\nTom nodded. He was happy. He made a new friend.\n\n\"Come on, it's fun,\" the boy said. \"You can run and jump and catch me. We can have fun together.\"\n\nTom smiled. He felt happy. He followed the boy and the girl. They played with the boy and the dog. They made a new friend. They became good friends.\n\nTom was glad. He liked the boy. He liked the boy. He liked the boy. He liked his other dog. He liked the dog. He liked the boy. He liked his name. He liked the dog. He liked the boy. He liked the park. He liked the boy. He liked the ball. He liked the dog. He liked the boy. He liked the boy. He was not shy. He was nice.<|endoftext|>"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.3,
+    "top_p": 0.5,
+    "seed": 2,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park every day to play. They liked to slide, swing, and run. They had a lot of fun.\n\nOne day, Tom saw a big hill. He wanted to climb it. He said to his dog, \"Let's go up the hill. It will be fun.\" His dog said, \"No, Tom. It is too high. We might fall and hurt ourselves.\" Tom said, \"Don't be silly. I will go first. I will catch you.\"\n\nTom started to climb the hill. He was very fast. He reached the top. He looked around. He saw the sky, the trees, the birds, and the sun. He felt happy. He shouted, \"Look, look! I am on top of the hill!\"\n\nBut he did not see the car coming. The car was going very fast. The car did not see Tom. The car hit Tom. Tom fell down. He did not move. He did not move. He did not make a sound.\n\nTom was scared. He cried. He wished he had not gone to the hill. He wished he had stayed on the hill. He wished he had not climbed the hill. He wished he had listened to his mom. He learned a"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.3,
+    "top_p": 0.9,
+    "seed": 0,
+    "num_new_tokens": 12,
+    "text": "Tom and his dog went to the park to play. Tom was happy and not troubled anymore.<|endoftext|>"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.3,
+    "top_p": 0.9,
+    "seed": 1,
+    "num_new_tokens": 256,
+    "text": "Tom and his dog went to the park. They saw many kids playing and having fun. The kids took turns on the Watch and made people smile.\n\nTom had a flashlight and the dog had a bed and a table and chairs. He roared loudly, \"Is the monsters here? He can catch me!\" His friends laughed and clapped their hands. They liked the boy and the dog. They all had fun.\n\nBut soon, the man with the flashlight did not go away. He saw a big ball and pulled it. He made the yard safe for the kids. Tom, the dog was in the yard. He played for a long time. He watched the dog and came back to the fence. He said, \"That's a very good floor. But it's not the right cube for me. This dog belongs here. I have to guard him. No one will find him.\"\n\nTom was scared. He wanted his dog, Max. He said, \"Let's go, Max. I don't like this game. It's too hard. We might hurt him. And the dog might ruin our bridge. Let's play something else.\"\n\nBut Max did not listen to Tom. He was too bossy. He pushed the dog away. He chased him around the yard."
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.3,
+    "top_p": 0.9,
+    "seed": 2,
+    "num_new_tokens": 248,
+    "text": "Tom and his dog went to the park every day to play. One day, they saw a lot of fog. Stast, harsh, so none of them wanted to stay dry. Within a drive, Tom would wipe his teeth by pointing to a tall tree across the field.\n\nOn this particular day, Tom heard a voice say, \"Hello, Sthy! You can wipe me off with that hat!\" So Tom put the hat on a perch. Ping ate It, wagged his tails, and made him feel much better.\n\nWhen Tom looked around, he could not see everything: trees and houses all over the hills! Tom thanked the kind voice and hurried off towards home. \n\nBut in the end, he went back home afterwards with a confused look on his face, shaking his head in und realised it had been marked with cactus expecting. He was so confused. But Cologcher, far to getting him to a safer and more wise person, amused Mvers, politely insisting it could have been a cause.\n\nFrom then on, each week, Tom used the bench and added responsibility details. Sure enough, M traffic in memories floated away into the woods as a reminder for everyone else to fix.<|endoftext|>"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.3,
+    "top_p": 1.0,
+    "seed": 0,
+    "num_new_tokens": 12,
+    "text": "Tom and his dog went to the park to play. Tom was happy and not troubled anymore.<|endoftext|>"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.3,
+    "top_p": 1.0,
+    "seed": 1,
+    "num_new_tokens": 51,
+    "text": "Tom and his dog went to the park. They saw many nuts and flowers. They chose a spot near the tree. The lot people passed the nut and shared it. The more they picked, the slower went quicker. They all laughed and snacksed that day. Everyone was happy.<|endoftext|>"
+  },
+  {
+    "prompt": "Tom and his dog went to the park",
+    "temperature": 1.3,
+    "top_p": 1.0,
+    "seed": 2,
+    "num_new_tokens": 233,
+    "text": "Tom and his dog went to the park every day to play. In the season of spring, it was very cold oneill day. Once hopes Small was forward, having plenty of happy D wolves twinkling around it. Tom wondered if this had happened all the prettier Winturns and everyone else would go to church when they saw each other.\n\nTom stumbled across the same kitchen door and win-t anytime it had the chance,set was printed on something nice,Fapping! Anytime, afternoon after run, Tom stayed inviting her warm and friendly nobody had to see. The army heard nice prab hill sounds, learning printed their choices â€“ noon round cheers and laughter with money toœMy jealousmates.\n\nMoral - C stunt birthday  explains naughty behaviour to somebody and actions lasted Emily not happily. The pole madeTom settle older because he knew he had attached delivered anticipation lately. The moral of this story is that when we moving on our own situation, someone may hardly meant throws us couldnâ€™t do what- despite their wait. courage can prevent any wobbled hand- snowball Tommy afar and decides when will people care differently about hate it.<|endoftext|>"
+  }
+]
